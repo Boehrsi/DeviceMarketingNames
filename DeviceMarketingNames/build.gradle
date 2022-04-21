@@ -1,9 +1,12 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+    id 'maven-publish'
 }
 
 android {
+    namespace = ' de.boehrsi.devicemarketingnames'
+
     compileSdk 31
 
     defaultConfig {
@@ -26,6 +29,12 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+
+    publishing {
+        singleVariant('release') {
+            withSourcesJar()
+        }
     }
 }
 
