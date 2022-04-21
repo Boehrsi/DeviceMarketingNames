@@ -10,11 +10,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        findViewById<TextView>(R.id.deviceName).text = DeviceMarketingNames.getFirstName()
+        findViewById<TextView>(R.id.deviceName).text = DeviceMarketingNames.getSingleName()
         findViewById<TextView>(R.id.deviceNameList).text = DeviceMarketingNames.getNames()
 
         val model = "SM-J250F"
-        findViewById<TextView>(R.id.customDeviceName).text = DeviceMarketingNames.getFirstNameFromModel(model)
+        findViewById<TextView>(R.id.customDeviceName).text = DeviceMarketingNames.getSingleNameFromModel(model)
         findViewById<TextView>(R.id.customDeviceNameList).text = DeviceMarketingNames.getNamesFromModel(model)
     }
 }
