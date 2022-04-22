@@ -2,9 +2,8 @@ plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
     id 'maven-publish'
+    id 'com.dicedmelon.gradle.jacoco-android'
 }
-
-apply plugin: "com.dicedmelon.gradle.jacoco-android"
 
 group = 'com.github.Boehrsi'
 version = '0.2.2'
@@ -58,7 +57,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = group
-                artifactId = 'device-marketing-names'
+                artifactId = 'devicemarketingnames'
                 version = version
             }
         }
