@@ -4,6 +4,8 @@ plugins {
     id 'maven-publish'
 }
 
+group = 'com.github.Boehrsi'
+
 apply plugin: "com.dicedmelon.gradle.jacoco-android"
 
 android {
