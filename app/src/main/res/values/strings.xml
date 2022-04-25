@@ -3,6 +3,6 @@
     <string name="waiting_for_lookup">Waiting for lookup…</string>
     <string name="device_name">First device name:</string>
     <string name="device_name_list">All possible device names:</string>
-    <string name="custom_device_name">Device name for model "SM-J250F":</string>
+    <string name="custom_device_name">First device name for model "SM-J250F":</string>
     <string name="custom_device_name_list">All possible device names for model "SM-J250F":</string>
 </resources>
