@@ -44,16 +44,16 @@ More information on [jitpack.io](https://jitpack.io/#Boehrsi/DeviceMarketingName
 For full examples please see the [example app](https://github.com/Boehrsi/DeviceMarketingNames/blob/main/app/src/main/java/de/boehrsi/devicemarketingnames/example/MainActivity.kt).
 
 ```kotlin
-// Get single name for the current device
+// Get one marketing name of the device.
 val deviceName = DeviceMarketingNames.getSingleName()
 
-// Get all known names for the current device
+// Get all marketing names of the device.
 val deviceNames = DeviceMarketingNames.getNames()
 
-// Get single name for a given model
+// Get one marketing name for the given model.
 val deviceNameFromModel = DeviceMarketingNames.getSingleNameFromModel("ONEPLUS A5010")
 
-// Get all known names for a given model
+// Get all marketing names for the given model.
 val deviceNamesFromModel = DeviceMarketingNames.getNamesFromModel("ONEPLUS A5010");
 ```
 
