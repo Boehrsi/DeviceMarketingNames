@@ -55,10 +55,39 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                from components.release
                 groupId = group
                 artifactId = 'devicemarketingnames'
                 version = version
+
+                afterEvaluate {
+                    from components.release
+                }
+
+                pom {
+                    name = 'Device Marketing Names'
+                    description = 'Marketing device name lookup library for Android.'
+                    url = 'https://github.com/Boehrsi/DeviceMarketingNames'
+
+                    licenses {
+                        license {
+                            name = 'Apache License 2.0'
+                            url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                        }
+                    }
+
+                    developers {
+                        developer {
+                            id = 'Boehrsi'
+                            name = 'Boehrsi'
+                            email = 'boehrsii@gmail.com'
+                        }
+                    }
+                    scm {
+                        url = 'https://github.com/Boehrsi/DeviceMarketingNames'
+                        connection = 'scm:git:git://github.com/Boehrsi/DeviceMarketingNames.git'
+                        developerConnection = 'scm:git:ssh://git@github.com/Boehrsi/DeviceMarketingNames.git'
+                    }
+                }
             }
         }
     }
