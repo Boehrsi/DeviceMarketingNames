@@ -1,4 +1,4 @@
-// [2022-07-17 03:16:11.100207] Auto generated file, do not change.
+// [2022-08-21 03:16:20.149444] Auto generated file, do not change.
 
 package de.boehrsi.devicemarketingnames.data
 
@@ -128,9 +128,7 @@ object Ios {
         }
     }
 }
-
 fun lookupIosName(model: String): String = Ios.map[model] ?: model
-
 object Android0 {
     internal val map by lazy {
         buildMap {
@@ -145,7 +143,6 @@ object Android0 {
         }
     }
 }
-
 object Android1 {
     internal val map by lazy {
         buildMap {
@@ -199,7 +196,6 @@ object Android1 {
         }
     }
 }
-
 object Android2 {
     internal val map by lazy {
         buildMap {
@@ -289,15 +285,24 @@ object Android2 {
             put("220233L2G", "Redmi 9A")
             put("22031116BG", "Redmi Note 11S 5G")
             put("2203121C", "Xiaomi 12S Ultra")
+            put("2203129G", "Xiaomi 12 Lite")
             put("220333QAG", "Redmi 10C")
-            put("220333QBI", "Redmi 10")
+            put("220333QBI", "Redmi 10 / Redmi 10 Power")
             put("220333QL", "Redmi 10C")
             put("220333QNY", "Redmi 10C")
             put("22041211AC", "Redmi K50")
+            put("22041216C", "Redmi Note 11T Pro")
+            put("22041216UC", "Redmi Note 11T Pro +")
             put("22041219C", "Redmi Note 11E")
+            put("22041219G", "Redmi 10 5G")
+            put("22041219NY", "Redmi 10 5G")
+            put("22041219PI", "POCO M4 5G")
+            put("22061218C", "Xiaomi MIX Fold 2")
             put("2206122SC", "Xiaomi 12S Pro")
             put("2206123SC", "Xiaomi 12S")
             put("2207122MC", "Xiaomi 12 Pro Dimensity")
+            put("22081212C", "Xiaomi 12T Pro")
+            put("22081281AC", "Xiaomi Pad 5 Pro")
             put("22M Gathers", "Gathers")
             put("22in-I-Series-4-Value", "22in-I-Series 4-Value")
             put("2E E450 2018", "2E E450A 2018")
@@ -305,7 +310,7 @@ object Android2 {
             put("2K Android TV", "Smart TV")
             put("2K PA Smart TV", "Smart TV")
             put("2K SA Smart TV", "Smart TV")
-            put("2K SMART TV", "ACONATIC / Dyon / JVC / SA / AP / Banana / Maxsonic_elite / SMART TECHNOLOGY / VIVAX")
+            put("2K SMART TV", "ACONATIC / Dyon / JVC / SA / AP / Banana / KTC / Maxsonic_elite / VISTA / LUCOMS / SMART TECHNOLOGY / VIVAX")
             put("2K Siera SMART TV", "SA")
             put("2K Smart TV", "A36 / Smart TV")
             put("2K TV", "North America")
@@ -325,7 +330,6 @@ object Android2 {
         }
     }
 }
-
 object Android3 {
     internal val map by lazy {
         buildMap {
@@ -341,7 +345,6 @@ object Android3 {
         }
     }
 }
-
 object Android4 {
     internal val map by lazy {
         buildMap {
@@ -452,14 +455,13 @@ object Android4 {
             put("4K PA Smart TV", "4K Smart TV")
             put("4K Pro TV", "Altus Android TV")
             put("4K SA Smart TV", "4K Smart TV")
-            put("4K SMART TV", "AIWA / JVC / Banana / Enova / Maxsonic_elite / LANIX")
+            put("4K SMART TV", "AIWA / JVC / Banana / CHIMEI / Enova / KTC / LikeMe / Maxsonic_elite / VISTA / LUCOMS / LANIX / NEXT / SHARP / SMART TEcHNOLGY / VIVAX")
             put("4K Siera SMART TV", "Siera")
             put("4KTV-JUP", "Panasonic")
             put("4S806_Z31S", "TH-43JX580C")
         }
     }
 }
-
 object Android5 {
     internal val map by lazy {
         buildMap {
@@ -809,7 +811,6 @@ object Android5 {
         }
     }
 }
-
 object Android6 {
     internal val map by lazy {
         buildMap {
@@ -878,7 +879,6 @@ object Android6 {
         }
     }
 }
-
 object Android7 {
     internal val map by lazy {
         buildMap {
@@ -934,7 +934,6 @@ object Android7 {
         }
     }
 }
-
 object Android8 {
     internal val map by lazy {
         buildMap {
@@ -1017,6 +1016,7 @@ object Android8 {
             put("8BY", "8BY_EEA")
             put("8DTB38", "Electron")
             put("8DTB40", "Electron 2")
+            put("8EY", "M-SP8EY")
             put("8LA1", "HT8LA1RBKNA01")
             put("8MA-A 3G", "8MA-A")
             put("8Qa_3G", "MediaTek")
@@ -1025,7 +1025,6 @@ object Android8 {
         }
     }
 }
-
 object Android9 {
     internal val map by lazy {
         buildMap {
@@ -1113,7 +1112,6 @@ object Android9 {
         }
     }
 }
-
 object AndroidA {
     internal val map by lazy {
         buildMap {
@@ -1377,10 +1375,7 @@ object AndroidA {
             put("AH9110", "benco Y11")
             put("AH9210", "benco Y40")
             put("AH9910", "Z30 / AH9910 / benco Y41")
-            put(
-                "AI PONT",
-                "B725050U / B725U / Smart TV / LXL43G7H-AT / RO-55LCS / AFL0065S / AW-LED43GKF / Android TV / Alpha 43G7NUA / M8T / RO-43LCS / G6SG / A4300 / A4310 / BTF-43SG / BTF-75TG / 730 / E40-520 / E55-720 / B5000 / G7H / H7000 / H7 / H7A / M7A / L32H7 / L42G6F / U50H7 / U58H7 / UHD Android TV / CGS55UHD / EGS42FHD / G7N / 32SD520 / 43FDVRCHG5SP / Vietnam / GT9HD32 / GT9UHD / LD50CHS04U / G9S / H-LED32ES5008 / H-LED32ES5108 / H-LED50EU7008 / HATV-58AA100 / HYLED4321AiM / HYLED5015A4KM / HYLED5520A4KM / 32X1 / 55X1 / G4310IE / G5524BE / LT-32N3115A / LT-40KB308 / LT-40N5115A / LT-50KD507 / LT-50N7115A / LT-55KB597 / K5130H43U / K5132H32H / KALED32RH9210STA / KALED50XU9210STA / RF9220 / 32CAM6SHD / NI32HG7NA9 / NI43UG7NA9 / 32VRCHG5SP / 43UDVRCHG7H / 32770H-TAB / ODL 32770H-TAB / ODL50672U-TAB / OR-50UX400S / PQ55CH / PTV40G71AGBL-VA / PTV55G71AGBLS-4K-VA / realme TV / realme TV 32 / R-32B6600 / RLED-AND42CHG6F / RLED-AND50CHG6FP / A11 / SH32G7S / SH55G7K / JSC43ASUHD / AndroidTV / 32A1S / 55A1S / K5T / TL55U12TRE / 32TG6A9 / 50TG7UA9X / LED32HS72A9 / VR-42AF6800 / 43UA / 50CA / WUD55JOA63S"
-            )
+            put("AI PONT", "B725050U / B725U / Smart TV / LXL43G7H-AT / RO-55LCS / AFL0065S / AW-LED43GKF / Android TV / Alpha 43G7NUA / M8T / RO-43LCS / G6SG / A4300 / A4310 / BTF-43SG / BTF-75TG / 730 / E40-520 / E55-720 / B5000 / G7H / H7000 / H7 / H7A / M7A / L32H7 / L42G6F / U50H7 / U58H7 / UHD Android TV / CGS55UHD / EGS42FHD / G7N / 32SD520 / 43FDVRCHG5SP / Vietnam / GT9HD32 / GT9UHD / LD50CHS04U / G9S / H-LED32ES5008 / H-LED32ES5108 / H-LED50EU7008 / HATV-58AA100 / HYLED4321AiM / HYLED5015A4KM / HYLED5520A4KM / 32X1 / 55X1 / G4310IE / G5524BE / LT-32N3115A / LT-40KB308 / LT-40N5115A / LT-50KD507 / LT-50N7115A / LT-55KB597 / K5130H43U / K5132H32H / KALED32RH9210STA / KALED50XU9210STA / RF9220 / 32CAM6SHD / NI32HG7NA9 / NI43UG7NA9 / 32VRCHG5SP / 43UDVRCHG7H / 32770H-TAB / ODL 32770H-TAB / ODL50672U-TAB / OR-50UX400S / PQ55CH / PTV40G71AGBL-VA / PTV55G71AGBLS-4K-VA / realme TV / realme TV 32 / R-32B6600 / RLED-AND42CHG6F / RLED-AND50CHG6FP / A11 / SH32G7S / SH55G7K / JSC43ASUHD / AndroidTV / 32A1S / 55A1S / K5T / TL55U12TRE / 32TG6A9 / 50TG7UA9X / LED32HS72A9 / VR-42AF6800 / 43UA / 50CA / WUD55JOA63S")
             put("AI PONT CO", "Smart TV")
             put("AI PONT IT", "Smart TV")
             put("AI PONT NA", "Android TV")
@@ -1688,6 +1683,7 @@ object AndroidA {
             put("ASUS_AI2201_B", "ROG Phone 6 (AI2201)")
             put("ASUS_AI2201_C", "ROG Phone 6 (AI2201)")
             put("ASUS_AI2201_D", "ROG Phone 6 (AI2201)")
+            put("ASUS_AI2202", "Zenfone 9")
             put("ASUS_I001D", "ROG Phone ll")
             put("ASUS_I001DC", "ROG Phone ll")
             put("ASUS_I001DE", "ROG Phone ll")
@@ -2187,6 +2183,7 @@ object AndroidA {
             put("Archos T 101X 4G", "Archos T101X 4G")
             put("Archos T101 HD", "act101hd")
             put("Archos T101 HD PLUS", "act101hdp")
+            put("Archos T101 HD WIFI", "act101hdwf")
             put("Armor 11 5G", "Armor 11 5G / Armor_11_5G")
             put("Armor 11T 5G", "Armor 11T 5G / Armor_11T_5G")
             put("Armor 5S", "Armor_5S")
@@ -2284,7 +2281,6 @@ object AndroidA {
         }
     }
 }
-
 object AndroidB {
     internal val map by lazy {
         buildMap {
@@ -2833,7 +2829,6 @@ object AndroidB {
         }
     }
 }
-
 object AndroidC {
     internal val map by lazy {
         buildMap {
@@ -3220,7 +3215,7 @@ object AndroidC {
             put("CPH2209", "Reno4 F")
             put("CPH2217", "Reno5 F")
             put("CPH2219", "A74 / CPH2219")
-            put("CPH2237", "CPH2237 / K10 5G")
+            put("CPH2237", "CPH2237 / OPPO Reno6 Z 5G")
             put("CPH2285", "F19 Pro")
             put("CPH2303", "A54 5G")
             put("CPH2305", "Find X5 Pro / OPPO Find X5 Pro")
@@ -3228,7 +3223,7 @@ object AndroidC {
             put("CPH2321", "OPPO A53s 5G")
             put("CPH2339", "A77 5G")
             put("CPH2341", "OPPO F21 Pro 5G")
-            put("CPH2343", "OPPO Reno7 Z 5G / OPPO Reno7 Z 5G/F21 Pro 5G / Reno7 Z 5G/Reno7 Lite 5G/Reno8 Lite 5G")
+            put("CPH2343", "OPPO Reno7 Z 5G / OPPO Reno7 Z 5G/F21 Pro 5G/Reno8 Lite 5G / Reno7 Z 5G/Reno7 Lite 5G/Reno8 Lite 5G")
             put("CPH2353", "OPPO Reno7 A")
             put("CPH2363", "OPPO Reno7 / OPPO Reno7/F21 Pro")
             put("CPH2371", "OPPO Reno7 5G / OPPO Reno7 5G/Find X5 Lite")
@@ -3249,6 +3244,7 @@ object AndroidC {
             put("CRO-L23", "HUAWEI Y5 lite 2017")
             put("CRO-U00", "Y3III")
             put("CRO-U23", "Y3III")
+            put("CRUISE2 5G", "CRUISE2 5G / CRUISE2 5G EEA")
             put("CRUSH_X565", "CRUSH X565 / CRUSH_X565")
             put("CS-1A13", "Cloud Connect")
             put("CS180", "CS1 8.0")
@@ -3522,7 +3518,6 @@ object AndroidC {
         }
     }
 }
-
 object AndroidD {
     internal val map by lazy {
         buildMap {
@@ -3803,7 +3798,6 @@ object AndroidD {
         }
     }
 }
-
 object AndroidE {
     internal val map by lazy {
         buildMap {
@@ -3982,6 +3976,7 @@ object AndroidE {
             put("EKO Android TV 2K", "Australia")
             put("EKS S45U", "S45U")
             put("EL-20-3050", "EL-20-3710")
+            put("EL-712", "RSE")
             put("ELE-AL00", "HUAWEI P30")
             put("ELE-L04", "HUAWEI P30")
             put("ELE-L09", "HUAWEI P30 / Huawei P30")
@@ -4044,6 +4039,7 @@ object AndroidE {
             put("ET-108-11A", "Walle")
             put("ET-108-11AR", "Walle")
             put("ET1012T", "E1012T")
+            put("ET40", "ET40 / ET40A")
             put("ET51", "Zebra Technologies ET51")
             put("ET56", "ET56CA / Zebra Technologies ET56")
             put("ETAB I1041G", "FUNDA")
@@ -4089,7 +4085,7 @@ object AndroidE {
             put("EWIS OCTA-T700M", "OCTA-T700M")
             put("EXODUS 1s", "Desire 12s")
             put("EZpad M10", "EZpad_M10_EEA")
-            put("EZpad M10S", "EZpad_M10S")
+            put("EZpad M10S", "EZpad_M10S / EZpad_M10S_ROW")
             put("Earn2 CL", "Earn2_CL")
             put("Earth 7.0'3G", "Earth 7.0' 3G")
             put("Easy-Power", "Easy Power")
@@ -4199,7 +4195,6 @@ object AndroidE {
         }
     }
 }
-
 object AndroidF {
     internal val map by lazy {
         buildMap {
@@ -4416,7 +4411,7 @@ object AndroidF {
             put("FZ-B2B", "FZ-B2")
             put("FZ-B2D", "FZ-B2D / fz_b2dh")
             put("FZ-L1 AOSP", "FZ-L1UN")
-            put("FZ-N1", "FZ-N1 / FZ-N1E / FZ-N1EVF / FZ-N1EVFE / FZ-N1F / FZ-N1VU")
+            put("FZ-N1", "FZ-N1 / FZ-N1EVF / FZ-N1EVFE / FZ-N1F / FZ-N1VU")
             put("FZ-T1", "FZ-T1 / FZ-T1AN / FZ-T1EUN / FZ-T1VUN")
             put("FZ-T1 AOSP", "FZ-T1")
             put("F_Plus", "F Plus")
@@ -4476,6 +4471,7 @@ object AndroidF {
             put("Flix TV Box", "Flix  TV  Box")
             put("Flow 7S", "Flow_7S_EEA")
             put("Flow 9", "Flow_9_EEA")
+            put("FlowBox-F1", "FlowBox-F1 / Flowbox-F1")
             put("Fly Ego Art 2", "Ego Art 2")
             put("Fly IQ4405_Quad", "EVO Chic 1")
             put("Fly IQ4418 AF", "IQ4418")
@@ -4517,7 +4513,6 @@ object AndroidF {
         }
     }
 }
-
 object AndroidG {
     internal val map by lazy {
         buildMap {
@@ -5197,7 +5192,6 @@ object AndroidG {
         }
     }
 }
-
 object AndroidH {
     internal val map by lazy {
         buildMap {
@@ -6389,6 +6383,7 @@ object AndroidH {
             put("Hammer_Blade_5G", "Hammer Blade 5G")
             put("Hammer_Energy_18x9", "Hammer Energy 18x9")
             put("Hammer_Energy_2", "Hammer Energy 2")
+            put("Hammer_Energy_2_2022", "Hammer Energy 2 2022")
             put("Hammer_Explorer_Plus", "Hammer Explorer Plus")
             put("Hammer_Explorer_Pro", "Hammer Explorer Pro")
             put("Hammer_IRON_3", "Hammer IRON 3")
@@ -6419,10 +6414,7 @@ object AndroidH {
             put("HiSmart 4K A4FFM", "laohushan")
             put("HiSmart 4K ATV4", "xinhaoshan")
             put("HiSmart TV", "fushan_2")
-            put(
-                "HiSmartTV A4",
-                "xiaoyushan_emG / xiaoyushan / xiaoyushan-bgh / xiaoyushan-em / xiaoyushan-sa / xiaoyushan_riviera / xiaoyushan_kalley / xiaoyushan_emT / xiaoyushan_etT / xiaoyushan-vu / xiaoyushan_emW"
-            )
+            put("HiSmartTV A4", "xiaoyushan_emG / xiaoyushan / xiaoyushan-bgh / xiaoyushan-em / xiaoyushan-sa / xiaoyushan_riviera / xiaoyushan_kalley / xiaoyushan_emT / xiaoyushan_etT / xiaoyushan-vu / xiaoyushan_emW")
             put("HiTV-M1", "Honor Box Pro")
             put("Hidr_S1_PRO", "Hidr S1 PRO / Hidr S1 PRO ROW / Hidr S1 PRO RU")
             put("Hisense A2", "A2")
@@ -6442,6 +6434,7 @@ object AndroidH {
             put("Hisense E20T", "E20T")
             put("Hisense E20s", "Hisense E20S / Hisense E20s")
             put("Hisense E260U", "E260U")
+            put("Hisense E32 Lite", "Hisense U964")
             put("Hisense E360M", "E360M")
             put("Hisense E40", "HLTE229E / Hisense E40")
             put("Hisense E40 Lite", "Hisense F19")
@@ -6589,7 +6582,6 @@ object AndroidH {
         }
     }
 }
-
 object AndroidI {
     internal val map by lazy {
         buildMap {
@@ -6604,6 +6596,7 @@ object AndroidI {
             put("I212", "Pixo 7")
             put("I2126", "iQOO Z6 Pro")
             put("I213", "Pixo 7")
+            put("I2201", "iQOO 9T")
             put("I2203", "iQOO Z6")
             put("I2206", "iQOO Z6")
             put("I3113", "Xperia 10")
@@ -7064,6 +7057,8 @@ object AndroidI {
             put("Infinix X672", "NOTE 12 VIP")
             put("Infinix X675", "HOT 11 2022")
             put("Infinix X676B", "NOTE 12 PRO")
+            put("Infinix X676C", "Infinix NOTE 12 2023")
+            put("Infinix X677", "NOTE 12i 2022")
             put("Infinix X680", "Infinix HOT 9 Play / Infinix SMART 4")
             put("Infinix X680B", "Infinix HOT 9 Play")
             put("Infinix X680C", "Infinix HOT 9 Play")
@@ -7081,6 +7076,7 @@ object AndroidI {
             put("Infinix X6816D", "Infinix HOT 12 Play NFC")
             put("Infinix X6817", "Infinix HOT 12")
             put("Infinix X6819", "Infinix NOTE 12i")
+            put("Infinix X6820", "ZERO ULTRA")
             put("Infinix X6823C", "SMART 6 PLUS")
             put("Infinix X682B", "HOT 10")
             put("Infinix X682C", "HOT 10")
@@ -7155,7 +7151,6 @@ object AndroidI {
         }
     }
 }
-
 object AndroidJ {
     internal val map by lazy {
         buildMap {
@@ -7249,7 +7244,6 @@ object AndroidJ {
         }
     }
 }
-
 object AndroidK {
     internal val map by lazy {
         buildMap {
@@ -7306,7 +7300,7 @@ object AndroidK {
             put("K13_Pro", "K13 Pro")
             put("K13pro", "k13pro")
             put("K15 Pro", "K15_Pro_EEA")
-            put("K15_Plus", "K15 Plus")
+            put("K15_Plus", "K15 Plus / K15_Plus_RU")
             put("K165", "Vantage")
             put("K175", "Vantage")
             put("K2", "K2 / K2s")
@@ -7576,7 +7570,6 @@ object AndroidK {
         }
     }
 }
-
 object AndroidL {
     internal val map by lazy {
         buildMap {
@@ -9448,10 +9441,7 @@ object AndroidL {
             put("Lenovo ThinkPad 11e 3rd Gen Chromebook", "ThinkPad 11e Chromebook 3rd Gen")
             put("Lenovo ThinkPad 11e 4th Gen Chromebook", "Thinkpad 11e Chromebook (4th Gen)/Lenovo Thinkpad Yoga 11e Chromebook (4th Gen)")
             put("Lenovo ThinkPad 13", "Thinkpad 13 Chromebook")
-            put(
-                "Lenovo Thinkpad 11e Chromebook (4th Gen)/Lenovo Thinkpad Yoga 11e Chromebook (4th Gen)",
-                "Thinkpad 11e Chromebook (4th Gen)/Lenovo Thinkpad Yoga 11e Chromebook (4th Gen)"
-            )
+            put("Lenovo Thinkpad 11e Chromebook (4th Gen)/Lenovo Thinkpad Yoga 11e Chromebook (4th Gen)", "Thinkpad 11e Chromebook (4th Gen)/Lenovo Thinkpad Yoga 11e Chromebook (4th Gen)")
             put("Lenovo X2-AP", "X2")
             put("Lenovo X2-CU", "Lenovo X2-CU/VIBE X2")
             put("Lenovo X2-EU", "X2")
@@ -9559,7 +9549,6 @@ object AndroidL {
         }
     }
 }
-
 object AndroidM {
     internal val map by lazy {
         buildMap {
@@ -9787,6 +9776,7 @@ object AndroidM {
             put("M830", "Morep Mavic 10")
             put("M850", "Mavic 10")
             put("M8L PLUS", "M8L PLUS / M8L Plus / M8L_PLUS")
+            put("M8L Plus", "M8L PLUS / M8L Plus")
             put("M8_4G", "M8 4G / M8_4G")
             put("M8_4G_T3", "M8 4G")
             put("M8_Go", "M8 Go / M8_Go")
@@ -10036,10 +10026,12 @@ object AndroidM {
             put("MOVE_8", "MOVE8 / MOVE_8.1")
             put("MOVIC-W5", "MOVIC_W5")
             put("MP01", "A11S / A11S EEA")
+            put("MP0101635", "MioTab MP0101635")
             put("MP02", "Power 5S / Power 5S EEA / Power 5S RU / Power 5S TR")
             put("MP03", "A13 Pro 5G / A13 Pro 5G EEA")
             put("MP05", "A13 / A13 EEA / A13 Pro / A13 Pro EEA / A13S / A13S EEA")
             put("MP06", "Power 7 / Power 7 EEA / Power 7 Max / Power 7 Max EEA / Power 7S / Power 7S EEA")
+            put("MP08", "UMIDIGI G1")
             put("MP09", "F3 / F3 EEA / F3 SE / F3 SE EEA / F3S / F3S EEA")
             put("MP1503", "M6")
             put("MP1602", "Victoria")
@@ -10607,7 +10599,6 @@ object AndroidM {
         }
     }
 }
-
 object AndroidN {
     internal val map by lazy {
         buildMap {
@@ -10713,10 +10704,7 @@ object AndroidN {
             put("NEW 20", "NEW_20")
             put("NEW 5", "New 5")
             put("NEXO TAB 70", "NEXO-TAB-70")
-            put(
-                "NEXT",
-                "Eco4K12A / Eco4K13 / Eco4K13A / Elite 4K 16 / Elite-4K 20 / Elite4K18A / Elite4K32A / NEXT Crew Terminal - AutoChip / NEXT Crew Terminal - IoT Chip / NEXT Eco4K 12 / NEXT Elite-4K 16 / NEXT Elite-4K 24 / NEXT Elite-4K 43 / NEXT Premium Hand-Set (PHS) / NEXT Theater-4K 24 / NEXT_WSCUwscu"
-            )
+            put("NEXT", "Eco4K12A / Eco4K13 / Eco4K13A / Elite 4K 16 / Elite-4K 20 / Elite4K18A / Elite4K32A / NEXT Crew Terminal - AutoChip / NEXT Crew Terminal - IoT Chip / NEXT Eco4K 12 / NEXT Elite-4K 16 / NEXT Elite-4K 24 / NEXT Elite-4K 43 / NEXT Premium Hand-Set (PHS) / NEXT Theater-4K 24 / NEXT_WSCUwscu")
             put("NEXT_P", "NEXT P")
             put("NGM M500", "M500")
             put("NGM Orion", "orion")
@@ -10808,6 +10796,8 @@ object AndroidN {
             put("Nano Android TV", "EU、UK、AP")
             put("Nano FHD Android TV", "Thailand")
             put("Nano UHD Android TV", "Thailand")
+            put("Nautiz X2", "Nautiz X2 / Nautiz X2 EEA")
+            put("Nautiz X41", "Nautiz X41 / Nautiz X41 EEA")
             put("Nautiz X9P", "Nautiz X9")
             put("Navo_P", "Navo  P")
             put("Navo_QS", "Navo QS")
@@ -10894,7 +10884,6 @@ object AndroidN {
         }
     }
 }
-
 object AndroidO {
     internal val map by lazy {
         buildMap {
@@ -11044,6 +11033,7 @@ object AndroidO {
             put("Omega_Lite_3C", "Omega Lite 3C")
             put("Omni8", "Omni 8")
             put("Omnis One", "OmnisOne")
+            put("Omotab 2s", "Omotab_2s")
             put("One Max", "One Max / One Max E / One Max RU")
             put("One Pad", "V9")
             put("Onliner4", "Onliner 4")
@@ -11131,6 +11121,7 @@ object AndroidO {
             put("OrangeFive", "Five")
             put("Orange_Rise_33", "Orange Rise 33")
             put("Orb S", "Orb_S")
+            put("OrderGo5", "OrderGo5_EEA")
             put("Orinoquia Auyantepui Y210", "Y210")
             put("Orinoquia Gran Roraima + S7-722u", "Gran_Roraima")
             put("Orinoquia Gran Roraima S7-702u", "Youth")
@@ -11138,7 +11129,6 @@ object AndroidO {
         }
     }
 }
-
 object AndroidP {
     internal val map by lazy {
         buildMap {
@@ -11424,6 +11414,7 @@ object AndroidP {
             put("PENTA_73AAQ1", "ETBA0692 / PENTA_73AAQ1")
             put("PENTA_83AAQ2", "ETBA0552")
             put("PERM00", "K7x 中国版")
+            put("PET 101-H232E", "PET-101-H232E")
             put("PET 101-H332S-W", "PET-101-H332S-W")
             put("PET 1081-H232S", "PET-1081-H232S")
             put("PET 1081-LH332S", "PET-1081-LH332S")
@@ -11963,7 +11954,6 @@ object AndroidP {
         }
     }
 }
-
 object AndroidQ {
     internal val map by lazy {
         buildMap {
@@ -12089,7 +12079,7 @@ object AndroidQ {
             put("QUANTUM_700S", "QUANTUM_700S/QUANTUM 700S")
             put("QV151E", "4K UHD Razor Slim LED TV powered by Android™")
             put("QX1000", "Fxtec QX1000")
-            put("QX1050", "QX-1050")
+            put("QX1050", "QX-1050 / QX1050")
             put("Q_Smart_BE", "myPhone")
             put("Qbell 2K Android TV", "EU、UK、AP")
             put("Qbell FHD Android TV", "Italy")
@@ -12132,7 +12122,6 @@ object AndroidQ {
         }
     }
 }
-
 object AndroidR {
     internal val map by lazy {
         buildMap {
@@ -12246,6 +12235,8 @@ object AndroidR {
             put("RMP2103", "realme pad")
             put("RMP2105", "realme Pad mini")
             put("RMP2106", "realme Pad mini")
+            put("RMP2107", "realme Pad X")
+            put("RMP2108", "realme Pad X")
             put("RMX1801", "realme 2 Pro")
             put("RMX1803", "realme 2 Pro")
             put("RMX1805", "realme 2")
@@ -12406,20 +12397,26 @@ object AndroidR {
             put("RMX3501", "realme C31")
             put("RMX3502", "realme C31")
             put("RMX3503", "realme C31")
+            put("RMX3506", "realme narzo 50i Prime")
             put("RMX3511", "realme C35")
             put("RMX3512", "realme C35")
             put("RMX3513", "realme C35")
             put("RMX3516", "realme narzo 50A Prime")
             put("RMX3517", "realme narzo 50A Prime")
             put("RMX3521", "realme 9")
+            put("RMX3551", "真我 GT2 大师探索版")
             put("RMX3560", "真我 GT NEO 3")
             put("RMX3561", "realme GT NEO 3")
             put("RMX3562", "真我 GT NEO  3  150W")
             put("RMX3563", "realme GT NEO 3 150W")
             put("RMX3571", "narzo 50 5G / realme V23")
-            put("RMX3572", "narzo 50 5G")
+            put("RMX3572", "narzo 50 5G / realme narzo 50 5G")
             put("RMX3574", "realme Q5i")
             put("RMX3576", "realme  V23i")
+            put("RMX3581", "realme C30")
+            put("RMX3610", "真我 V20")
+            put("RMX3611", "真我 V20")
+            put("RMX3623", "realme C30")
             put("RNE-AL00", "MAIMANG 6")
             put("RNE-L01", "Mate 10 lite")
             put("RNE-L02", "nova 2i")
@@ -12442,7 +12439,7 @@ object AndroidR {
             put("RS987", "V10")
             put("RS988", "LG G5")
             put("RSEIII", "RSE-III")
-            put("RT1", "RT1_EEA")
+            put("RT1", "RT1 / RT1_EEA")
             put("RT101A9", "RT101A")
             put("RT4500", "RT4500_EEA")
             put("RT55", "RT55_EEA")
@@ -12507,7 +12504,6 @@ object AndroidR {
         }
     }
 }
-
 object AndroidS {
     internal val map by lazy {
         buildMap {
@@ -13130,6 +13126,7 @@ object AndroidS {
             put("SH-RM15", "AQUOS sense4 lite SH-RM15")
             put("SH-RM18", "AQUOS zero6")
             put("SH-RM19", "AQUOS sense6")
+            put("SH-RM19s", "AQUOS sense6s")
             put("SH-S40P", "AQUOS sense4 plus")
             put("SH-S50", "AQUOS sense5G SH-S50")
             put("SH-WS10", "AQUOS wish")
@@ -13419,6 +13416,12 @@ object AndroidS {
             put("SM-A235F", "Galaxy A23")
             put("SM-A235M", "Galaxy A23")
             put("SM-A235N", "Galaxy A23")
+            put("SM-A2360", "Galaxy A23 5G")
+            put("SM-A236B", "Galaxy A23 5G")
+            put("SM-A236E", "Galaxy A23 5G")
+            put("SM-A236M", "Galaxy A23 5G")
+            put("SM-A236U", "Galaxy A23 5G")
+            put("SM-A236U1", "Galaxy A23 5G")
             put("SM-A260F", "Galaxy A2 Core")
             put("SM-A260G", "Galaxy A2 Core")
             put("SM-A3000", "Galaxy A3")
@@ -13721,6 +13724,13 @@ object AndroidS {
             put("SM-F711U", "Galaxy Z Flip3 5G")
             put("SM-F711U1", "Galaxy Z Flip3 5G")
             put("SM-F711W", "Galaxy Z Flip3 5G")
+            put("SM-F7210", "Galaxy Z Flip4")
+            put("SM-F721B", "Galaxy Z Flip4")
+            put("SM-F721C", "Galaxy Z Flip4")
+            put("SM-F721N", "Galaxy Z Flip4")
+            put("SM-F721U", "Galaxy Z Flip4")
+            put("SM-F721U1", "Galaxy Z Flip4")
+            put("SM-F721W", "Galaxy Z Flip4")
             put("SM-F9000", "Galaxy Fold")
             put("SM-F900F", "Galaxy Fold")
             put("SM-F900U", "Galaxy Fold")
@@ -13741,6 +13751,12 @@ object AndroidS {
             put("SM-F926U", "Galaxy Z Fold3 5G")
             put("SM-F926U1", "Galaxy Z Fold3 5G")
             put("SM-F926W", "Galaxy Z Fold3 5G")
+            put("SM-F9360", "Galaxy Z fold4")
+            put("SM-F936B", "Galaxy Z Fold4 / Galaxy Z fold4")
+            put("SM-F936N", "Galaxy Z fold4")
+            put("SM-F936U", "Galaxy Z fold4")
+            put("SM-F936U1", "Galaxy Z Fold4")
+            put("SM-F936W", "Galaxy Z fold4")
             put("SM-G110B", "Galaxy Pocket2")
             put("SM-G110H", "Galaxy Pocket2")
             put("SM-G110M", "Galaxy Pocket2")
@@ -13977,7 +13993,7 @@ object AndroidS {
             put("SM-G889A", "Galaxy XCover FieldPro")
             put("SM-G889F", "Galaxy XCover Field Pro")
             put("SM-G889G", "Galaxy XCover FieldPro")
-            put("SM-G889YB", "Galaxy XCover Filed Pro")
+            put("SM-G889YB", "Galaxy XCover FieldPro")
             put("SM-G892A", "Galaxy S8 Active")
             put("SM-G892U", "Galaxy S8 Active")
             put("SM-G9006W", "Galaxy S5")
@@ -14655,6 +14671,19 @@ object AndroidS {
             put("SM-R895F", "Galaxy Watch4 Classic")
             put("SM-R895N", "Galaxy Watch4 Classic")
             put("SM-R895U", "Galaxy Watch4 Classic")
+            put("SM-R900", "Galaxy Watch5")
+            put("SM-R905F", "Galaxy Watch5")
+            put("SM-R905N", "Galaxy Watch5")
+            put("SM-R905U", "Galaxy Watch5")
+            put("SM-R910", "Galaxy Watch5")
+            put("SM-R9150", "Galaxy Watch5")
+            put("SM-R915F", "Galaxy Watch5")
+            put("SM-R915N", "Galaxy Watch5")
+            put("SM-R915U", "Galaxy Watch5")
+            put("SM-R920", "Galaxy Watch5")
+            put("SM-R925F", "Galaxy Watch5")
+            put("SM-R925N", "Galaxy Watch5")
+            put("SM-R925U", "Galaxy Watch5")
             put("SM-S102DL", "Galaxy A10e")
             put("SM-S111DL", "Galaxy A01")
             put("SM-S120VL", "Galaxy J1")
@@ -14664,6 +14693,7 @@ object AndroidS {
             put("SM-S136DL", "Galaxy A13 5G")
             put("SM-S205DL", "Galaxy A20")
             put("SM-S215DL", "Galaxy A21")
+            put("SM-S236DL", "Galaxy A23 5G")
             put("SM-S260DL", "Galaxy J2")
             put("SM-S320VL", "Galaxy J3(2016)")
             put("SM-S326DL", "Galaxy A32 5G")
@@ -14841,7 +14871,7 @@ object AndroidS {
             put("SM-T510", "Galaxy Tab A")
             put("SM-T515", "Galaxy Tab A")
             put("SM-T515N", "Galaxy Tab A")
-            put("SM-T517", "Galaxy Tab A(10.1, 2019)")
+            put("SM-T517", "Galaxy Tab A")
             put("SM-T517P", "Galaxy Tab A")
             put("SM-T520", "Galaxy Tab Pro 10.1")
             put("SM-T520CC", "Galaxy Tab Pro 10.1 Chef Collection")
@@ -14892,6 +14922,8 @@ object AndroidS {
             put("SM-T597P", "Galaxy Tab A (10.5\")")
             put("SM-T597V", "Galaxy Tab A (10.5\")")
             put("SM-T597W", "Galaxy Tab A (10.5)")
+            put("SM-T636B", "Galaxy Tab Active4 Pro 5G")
+            put("SM-T636N", "Galaxy Tab Active4 Pro 5G")
             put("SM-T670", "Galaxy View")
             put("SM-T677", "Galaxy View")
             put("SM-T677NK", "Galaxy view")
@@ -15230,6 +15262,7 @@ object AndroidS {
             put("ST7001", "ST7001 Tablet")
             put("ST940I-UP", "U+ tv UHD")
             put("STAR", "STAR / Star")
+            put("STAR 1", "STAR_1")
             put("STAR-X FHD Android TV", "Middle East")
             put("STAR-X UHD Android TV", "Middle East")
             put("STARACTIVE", "STARACTIVE / Staractive")
@@ -15382,13 +15415,10 @@ object AndroidS {
             put("Smart 502", "FarEastone Smart 502")
             put("Smart A1 Plus", "Smart _A1_Plus")
             put("Smart Bit", "Smart_Bit")
-            put("Smart FHD TV", "Nobrand")
+            put("Smart FHD TV", "Nobrand / THEHAM")
             put("Smart Landline AC7 Tablet", "Smart_Landline_AC7")
             put("Smart Monitor 17", "SM17")
-            put(
-                "Smart TV",
-                "fushan_BGH / fushan_Guard / A55 / fushan_akino / Riviera / BeyondTV6 / C02_4K_US / C06_2K_US / G03_4K_GB_NF / G03_4K_US_NF / G07_4K_GB_NF / Smart TV / fushan_euT"
-            )
+            put("Smart TV", "fushan_BGH / fushan_Guard / A55 / fushan_akino / Riviera / BeyondTV6 / C02_4K_US / C06_2K_GB / C06_2K_US / G03_4K_GB_NF / G03_4K_US_NF / G07_4K_GB_NF / Smart TV / fushan_euT")
             put("Smart TV Pro", "BeyondTV4 / BeyondTV6 / G03_4K_GB / G03_4K_US / G03_4K_US_NF / G05_4K_GB / G05_4K_US / Smart TV Pro")
             put("Smart UHD TV", "Electroman / THEHAM")
             put("Smart'TAB 8003", "essentielb ST8003/FT8001 Tablet")
@@ -15415,7 +15445,7 @@ object AndroidS {
             put("SmartTAB 1002", "Essentiel B SmartTab 1002")
             put("SmartTAB1007", "SmartTab1007")
             put("SmartTV", "MB300")
-            put("SmartTV 4K", "U6H/A6H/U6G1 / huangshan / songshan / X7500 / 50 google tv/58 google tv/65 google tv/75 google tv / HIKA5")
+            put("SmartTV 4K", "OEM50ANDROID22/OEM55ANDROID22 / U6H/A6H/U6G1 / huangshan / songshan / X7500 / 50 google tv/58 google tv/65 google tv/75 google tv / HIKA5")
             put("SmartTV 4K FFM", "A65 / A6H/E6H/A6600H/A6500H/E7H/A6HA / U60H / U6H / U70H/U8H/U80H/U85H / huangshan / X9500")
             put("SmartTV 8K FFM", "9980")
             put("SmartTV FFM", "taishan-jpT")
@@ -15553,7 +15583,6 @@ object AndroidS {
         }
     }
 }
-
 object AndroidT {
     internal val map by lazy {
         buildMap {
@@ -15723,10 +15752,7 @@ object AndroidT {
             put("TAB700MPG", "TAB-700")
             put("TAB8", "TAB8B / TAB8")
             put("TADAAM Box", "TADAAM Box / Tadaam")
-            put(
-                "TAG Heuer",
-                "Connected / Connected 2020 / Connected Calibre E4 42mm / Connected Calibre E4 45mm / Connected Modular 41 / Connected Modular 45 / Connected Modular 45 (China)"
-            )
+            put("TAG Heuer", "Connected / Connected 2020 / Connected Calibre E4 42mm / Connected Calibre E4 45mm / Connected Modular 41 / Connected Modular 45 / Connected Modular 45 (China)")
             put("TAG TAB II", "TAG_TAB_II")
             put("TAG_Phone", "TAG Phone")
             put("TAQ-70", "TAQ-70 / TAQ70")
@@ -15747,8 +15773,12 @@ object AndroidT {
             put("TB128XC", "启天K10 Pro")
             put("TB132FU", "Lenovo Tab P11 Pro (2nd Gen) / 小新Pad Pro 2022")
             put("TB138FC", "小新Pad Pro 2022")
+            put("TB300FU", "Lenovo Tab M8 (4th gen)")
+            put("TB300XU", "Lenovo Tab M8 (4th gen)")
             put("TB328FU", "Lenovo Tab M10 (3rd Gen)")
             put("TB328XU", "Lenovo Tab M10 (3rd Gen)")
+            put("TB350FU", "Lenovo Tab P11 (2nd Gen)")
+            put("TB350XU", "Lenovo Tab P11 (2nd Gen)")
             put("TB717G", "TB717G / TB717G_8_1")
             put("TBD", "Redmi Note 10T 5G")
             put("TBDG773", "Zeki TBDG773")
@@ -15861,6 +15891,7 @@ object AndroidT {
             put("TECNO BD4i", "POP 5 LTE")
             put("TECNO BE6", "TECNO POP 6 Go")
             put("TECNO BE7", "TECNO POP 6 / TECNO POP 6 Go")
+            put("TECNO BE8i", "POP 6 Pro")
             put("TECNO CA6", "CAMON CM")
             put("TECNO CA6S", "COMAN CM")
             put("TECNO CA7", "CAMON X")
@@ -16010,8 +16041,12 @@ object AndroidT {
             put("TECNO LE8", "TECNO POVA 5G")
             put("TECNO LF7", "TECNO POVA 3")
             put("TECNO LF7n", "TECNO POVA 3")
+            put("TECNO LG6n", "POVA Neo 2")
+            put("TECNO LG7n", "POVA 4")
             put("TECNO M3S", "M3")
+            put("TECNO Mobile CH6i", "CAMON 19 Neo")
             put("TECNO Mobile CH6n", "CAMON 18")
+            put("TECNO Mobile CI6n", "CAMON 19")
             put("TECNO Mobile KG6k", "TECNO Mobile SPARK 8")
             put("TECNO Mobile KG6p", "TECNO Mobile SPARK 8T")
             put("TECNO Mobile KG8", "SPARK 8 Pro")
@@ -16151,7 +16186,9 @@ object AndroidT {
             put("TM-5581", "Texet TM-5581")
             put("TM-5584", "Texet TM-5584")
             put("TM-MID792WP", "TM_MID792WP")
+            put("TM152", "LUCA Tablet TM152")
             put("TMRVL4G", "REVVL V")
+            put("TMS-KR01P", "IPN99_RTD1319_TOA / TMS-KR01P")
             put("TN800A1", "TurboTab E1")
             put("TNY-AL00", "Honor Magic 2")
             put("TNY-TL00", "Honor Magic 2")
@@ -16162,6 +16199,7 @@ object AndroidT {
             put("TONE-m17", "TONE m17")
             put("TOSPASB", "STB10")
             put("TP-10-0232P3G", "MITSUSHIBA")
+            put("TP1005", "TP1005 / TP1005_EEA")
             put("TP1060J", "TIME2")
             put("TP601A", "C5L")
             put("TP601B", "C5L")
@@ -16241,6 +16279,7 @@ object AndroidT {
             put("Tab 10.1Pro", "Masstel_Tab_10.1Pro")
             put("Tab 11", "Tab11_EA / Tab11_NEU")
             put("Tab 12", "Tab12_EEA / Tab12_NEU")
+            put("Tab 15", "Tab_15_EEA / Tab_15_EU / Tab_15_NEU")
             put("Tab 3G 7-2", "Vertex Tab 3G 7-2")
             put("Tab 4G 10-1", "Tab_4G_10_1")
             put("Tab 4G 8-1", "Tab_4G_8-1")
@@ -16447,7 +16486,6 @@ object AndroidT {
         }
     }
 }
-
 object AndroidU {
     internal val map by lazy {
         buildMap {
@@ -16460,6 +16498,7 @@ object AndroidU {
             put("U4001", "UNONU U4001")
             put("U5", "Artel U5 / U5")
             put("U601S Pro", "U601S  Pro")
+            put("U616AT", "WIKO VOIX")
             put("U680C", "UMX U680C")
             put("U705T", "Ulike2")
             put("U705W", "Ulike2")
@@ -16543,7 +16582,6 @@ object AndroidU {
         }
     }
 }
-
 object AndroidV {
     internal val map by lazy {
         buildMap {
@@ -16555,6 +16593,7 @@ object AndroidV {
             put("V.45", "VSN V.45 / V.45")
             put("V.45S", "V.45")
             put("V1", "V1 / Active / Vision V1")
+            put("V11", "V11 / V10")
             put("V12", "V12 / X-TIGI_V12")
             put("V138Lite", "Symphony V138Lite")
             put("V1813A", "Y97 / Z3i")
@@ -16583,6 +16622,7 @@ object AndroidV {
             put("V2101", "V2054 / V2101")
             put("V2114", "vivo X70 Pro+")
             put("V2136", "V2110")
+            put("V2143", "T1x / V2143")
             put("V2144", "X80")
             put("V2145", "X80 Pro")
             put("V2149", "Y21A")
@@ -16591,16 +16631,36 @@ object AndroidV {
             put("V2153", "T1")
             put("V2154", "T1 / Y55")
             put("V2154A", "iQOO Neo5S")
-            put("V2164A", "Y55s")
+            put("V2158", "V25 Pro")
+            put("V2160", "Y30 5G")
+            put("V2164A", "V2164A / Y55s")
+            put("V2164KA", "iQOO Z6x")
+            put("V2166", "Y01A")
             put("V2168", "T1")
             put("V2170A", "vivo X Note")
             put("V2178A", "vivo X Fold")
             put("V2180GA", "U5x")
             put("V2183A", "vivo X80")
+            put("V2185A", "vivo X80 Pro")
             put("V2186A", "vivo X80 Pro 天玑9000版")
             put("V2188A", "iQOO Z5 6000mAh")
+            put("V2196A", "iQOO Neo6")
             put("V2199A", "iQOO Neo6 SE")
             put("V2199GA", "vivo T2")
+            put("V2201", "V25e")
+            put("V2202", "V2202 / V25")
+            put("V2203", "Y02s")
+            put("V2204", "Y16")
+            put("V2205", "Y35")
+            put("V2206", "Y22s")
+            put("V2207", "vivo Y22")
+            put("V2207A", "vivo S15 Pro")
+            put("V2208", "X80 Lite  5G")
+            put("V2209", "V25e")
+            put("V2212", "Y15C")
+            put("V2214", "Y16")
+            put("V2217A", "iQOO 10")
+            put("V2218A", "iQOO 10 Pro")
             put("V2219A", "vivo Y77")
             put("V23GB", "V2 3GB")
             put("V2_Viper", "V2 Viper")
@@ -16771,6 +16831,7 @@ object AndroidV {
             put("VM1A", "Thor VM1A")
             put("VM3A", "Thor VM3A")
             put("VM670", "Optimus One")
+            put("VNE-N41", "HONOR X8 5G")
             put("VNTTab2", "VNPTTechnology")
             put("VOG-AL00", "P30 Pro")
             put("VOG-AL10", "P30 Pro")
@@ -17000,6 +17061,7 @@ object AndroidV {
             put("Vodafone Smart Tab III 7", "IdeaTab A3000")
             put("Vodafone Smart ultra 6", "Smart ultra 6 / Vodafone Smart ultra 6")
             put("Vodafone Tab grand 6", "VF-1296")
+            put("Volentex_101", "M10")
             put("Volt_S_A7", "Volt_S")
             put("Volvo XC40", "Volvo XC40 Emulator")
             put("Vortech 3.0", "Vortech_3_0")
@@ -17011,7 +17073,6 @@ object AndroidV {
         }
     }
 }
-
 object AndroidW {
     internal val map by lazy {
         buildMap {
@@ -17150,7 +17211,8 @@ object AndroidW {
             put("WP17", "WP17_EEA")
             put("WP18 Pro", "WP18_Pro_EEA")
             put("WP19", "WP19_EEA")
-            put("WP20", "WP20_EEA / WP20")
+            put("WP20", "WP20_EEA / WP20_RU / WP20")
+            put("WP20 Pro", "WP20_Pro / WP20_Pro_EEA")
             put("WP5 Pro", "WP5 Pro / WP5_Pro_row")
             put("WP6", "WP6 / WP6_EEA")
             put("WP8 Pro", "WP8_Pro")
@@ -17177,6 +17239,7 @@ object AndroidW {
             put("WasabiMango 4K Android TV", "MTC")
             put("Wave i007Kids", "Wave i007Kids / Wave_i007Kids")
             put("WayteQ Libra", "Blade")
+            put("WeTap_Y10", "WeTap_Y10 / WeTap_Y10_EEA")
             put("Webpad_1002_02", "Web'Pad_1002_02")
             put("Webpad_7005", "webpad_7005")
             put("WelcomeTV", "HotelTV")
@@ -17210,7 +17273,6 @@ object AndroidW {
         }
     }
 }
-
 object AndroidX {
     internal val map by lazy {
         buildMap {
@@ -17241,7 +17303,8 @@ object AndroidX {
             put("X06HT", "Desire")
             put("X1 7.0", "MediaPad X1 7.0")
             put("X1 Light", "X1_Light")
-            put("X10", "X10 / IRULU_MID / Irulu")
+            put("X10", "X10 / IRULU_MID / M-SP1X10 / Irulu")
+            put("X10 Tablet", "Punos X10")
             put("X1030X", "X1030x")
             put("X1060X", "P1060X")
             put("X10a", "Xperia X10")
@@ -17313,6 +17376,7 @@ object AndroidX {
             put("X7_Soul_Style", "X7 Soul Style")
             put("X7pro", "X7Pro")
             put("X8", "X8 / X8_3gb / Xmovi_X8 / X8_EEA")
+            put("X8 Tablet", "Punos X8 PTX822G")
             put("X82", "NEON_RAY_2")
             put("X8607", "Blade L3")
             put("X8_Soul_Pro", "X8 PRO")
@@ -17547,7 +17611,6 @@ object AndroidX {
         }
     }
 }
-
 object AndroidY {
     internal val map by lazy {
         buildMap {
@@ -17655,7 +17718,6 @@ object AndroidY {
         }
     }
 }
-
 object AndroidZ {
     internal val map by lazy {
         buildMap {
@@ -18059,7 +18121,8 @@ object AndroidZ {
             put("ZTE Skate 2", "Grand X Quad Lite")
             put("ZTE Star 1", "STAR")
             put("ZTE Switch X1", "Switch X1")
-            put("ZTE T1002", "ZTE Blade X10s")
+            put("ZTE T1002", "ZTE Blade X10 / ZTE Blade X10s")
+            put("ZTE T1003", "ZTE Blade X10 Pro")
             put("ZTE T12", "T12")
             put("ZTE T220", "Blade C340")
             put("ZTE T221", "T221")
@@ -18227,7 +18290,6 @@ object AndroidZ {
         }
     }
 }
-
 object AndroidLowercaseA {
     internal val map by lazy {
         buildMap {
@@ -18259,7 +18321,6 @@ object AndroidLowercaseA {
         }
     }
 }
-
 object AndroidLowercaseB {
     internal val map by lazy {
         buildMap {
@@ -18277,7 +18338,6 @@ object AndroidLowercaseB {
         }
     }
 }
-
 object AndroidLowercaseC {
     internal val map by lazy {
         buildMap {
@@ -18305,7 +18365,6 @@ object AndroidLowercaseC {
         }
     }
 }
-
 object AndroidLowercaseD {
     internal val map by lazy {
         buildMap {
@@ -18326,7 +18385,6 @@ object AndroidLowercaseD {
         }
     }
 }
-
 object AndroidLowercaseE {
     internal val map by lazy {
         buildMap {
@@ -18354,7 +18412,6 @@ object AndroidLowercaseE {
         }
     }
 }
-
 object AndroidLowercaseF {
     internal val map by lazy {
         buildMap {
@@ -18367,7 +18424,6 @@ object AndroidLowercaseF {
         }
     }
 }
-
 object AndroidLowercaseG {
     internal val map by lazy {
         buildMap {
@@ -18382,7 +18438,6 @@ object AndroidLowercaseG {
         }
     }
 }
-
 object AndroidLowercaseH {
     internal val map by lazy {
         buildMap {
@@ -18400,7 +18455,6 @@ object AndroidLowercaseH {
         }
     }
 }
-
 object AndroidLowercaseI {
     internal val map by lazy {
         buildMap {
@@ -18544,13 +18598,14 @@ object AndroidLowercaseI {
             put("itel A44", "A44")
             put("itel A44 Pro", "A44 Pro")
             put("itel A45", "A45 / itel A45")
-            put("itel A507LM", "itel A24")
+            put("itel A507LM", "itel  AC50 / itel A24")
             put("itel A507LN", "itel  A24")
             put("itel A507LP", "itel  V51 LTE")
             put("itel A507LS", "itel A24")
             put("itel A51", "A51")
             put("itel A510W", "itel A510W / itel-A510W")
-            put("itel A512W", "A512W")
+            put("itel A511LQ", "itel A23S")
+            put("itel A512W", "A512W / itel A18")
             put("itel A52B", "A52B")
             put("itel A551L", "itel A27(P17 Pro 4G)")
             put("itel A571L", "A26")
@@ -18561,7 +18616,7 @@ object AndroidLowercaseI {
             put("itel A611W", "itel A57")
             put("itel A611WP", "itel A57 2GB")
             put("itel A62", "A62")
-            put("itel A631W", "itel  A58 Lite / itel A58 Lite")
+            put("itel A631W", "A58 Lite / Itel A58 Lite / itel  A58 Lite / itel A58 Lite / itel A58 lite")
             put("itel A661L", "A49")
             put("itel A661W", "A58")
             put("itel A661WP", "A58 Pro")
@@ -18681,7 +18736,6 @@ object AndroidLowercaseI {
         }
     }
 }
-
 object AndroidLowercaseJ {
     internal val map by lazy {
         buildMap {
@@ -18690,7 +18744,6 @@ object AndroidLowercaseJ {
         }
     }
 }
-
 object AndroidLowercaseK {
     internal val map by lazy {
         buildMap {
@@ -18702,7 +18755,6 @@ object AndroidLowercaseK {
         }
     }
 }
-
 object AndroidLowercaseL {
     internal val map by lazy {
         buildMap {
@@ -18730,7 +18782,6 @@ object AndroidLowercaseL {
         }
     }
 }
-
 object AndroidLowercaseM {
     internal val map by lazy {
         buildMap {
@@ -18792,7 +18843,7 @@ object AndroidLowercaseM {
             put("moto g(7)", "moto g(7) / moto g(8) plus")
             put("moto g(7) play", "moto g(7) play / moto g(8) play")
             put("moto g20", "moto g(20)")
-            put("moto g200 5G", "moto g200 5G / motorola edge 30")
+            put("moto g200 5G", "moto g200 5G / motorola edge 30 / motorola edge 30 fusion")
             put("moto g31(w)", "moto g31")
             put("moto g51 5G", "moto g51 5G / moto g62 5G")
             put("moto g71 5G", "moto g71 5G / moto g82 5G")
@@ -18804,7 +18855,7 @@ object AndroidLowercaseM {
             put("moto z4", "moto z4 / motorola one zoom")
             put("moto[SPACE]g(50)", "moto g51")
             put("motorola", "moto g stylus (2022) / moto g31 / moto g41 / motorola edge 20 fusion / motorola edge 20 lite")
-            put("motorola edge", "moto g 5G / motorola edge")
+            put("motorola edge", "moto g 5G / motorola edge / motorola edge 30 ultra")
             put("motorola edge 20 pro", "moto g200 5G / motorola edge 20 pro")
             put("motorola edge 5G UW", "motorola edge 5G UW (2021)")
             put("motorola edge plus", "motorola edge (2021) / motorola edge 20 / motorola edge 30 pro / motorola edge plus")
@@ -18841,7 +18892,6 @@ object AndroidLowercaseM {
         }
     }
 }
-
 object AndroidLowercaseN {
     internal val map by lazy {
         buildMap {
@@ -18863,7 +18913,6 @@ object AndroidLowercaseN {
         }
     }
 }
-
 object AndroidLowercaseO {
     internal val map by lazy {
         buildMap {
@@ -18885,7 +18934,6 @@ object AndroidLowercaseO {
         }
     }
 }
-
 object AndroidLowercaseP {
     internal val map by lazy {
         buildMap {
@@ -18897,7 +18945,6 @@ object AndroidLowercaseP {
         }
     }
 }
-
 object AndroidLowercaseR {
     internal val map by lazy {
         buildMap {
@@ -18913,7 +18960,6 @@ object AndroidLowercaseR {
         }
     }
 }
-
 object AndroidLowercaseS {
     internal val map by lazy {
         buildMap {
@@ -18946,7 +18992,6 @@ object AndroidLowercaseS {
         }
     }
 }
-
 object AndroidLowercaseT {
     internal val map by lazy {
         buildMap {
@@ -18966,7 +19011,6 @@ object AndroidLowercaseT {
         }
     }
 }
-
 object AndroidLowercaseU {
     internal val map by lazy {
         buildMap {
@@ -18979,7 +19023,6 @@ object AndroidLowercaseU {
         }
     }
 }
-
 object AndroidLowercaseV {
     internal val map by lazy {
         buildMap {
@@ -19103,7 +19146,6 @@ object AndroidLowercaseV {
         }
     }
 }
-
 object AndroidLowercaseW {
     internal val map by lazy {
         buildMap {
@@ -19114,7 +19156,6 @@ object AndroidLowercaseW {
         }
     }
 }
-
 object AndroidLowercaseX {
     internal val map by lazy {
         buildMap {
@@ -19122,7 +19163,6 @@ object AndroidLowercaseX {
         }
     }
 }
-
 object AndroidLowercaseY {
     internal val map by lazy {
         buildMap {
@@ -19130,7 +19170,6 @@ object AndroidLowercaseY {
         }
     }
 }
-
 object AndroidLowercaseZ {
     internal val map by lazy {
         buildMap {
@@ -19139,7 +19178,6 @@ object AndroidLowercaseZ {
         }
     }
 }
-
 fun lookupAndroidName(model: String): String {
     if (model.isBlank()) {
         return ""
