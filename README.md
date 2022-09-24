@@ -33,7 +33,7 @@ Add this to your app `build.gradle` file:
 ```groovy
 dependencies {
   ...
-  implementation 'com.github.Boehrsi:DeviceMarketingNames:0.2.7'
+  implementation 'com.github.Boehrsi:DeviceMarketingNames:0.3.0'
 }
 ```
 
