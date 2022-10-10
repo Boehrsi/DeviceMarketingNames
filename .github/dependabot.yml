@@ -1,6 +1,6 @@
 version: 2
 updates:
   - package-ecosystem: "gradle"
-    directory: "/"
+    directory: "/DeviceMarketingNames"
     schedule:
       interval: "weekly"
