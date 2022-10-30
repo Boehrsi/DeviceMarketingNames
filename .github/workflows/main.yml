@@ -14,4 +14,4 @@ jobs:
           java-version: 11
       - name: Build and run test
         run: bash ./gradlew build jacocoTestReport
-      - uses: codecov/codecov-action@v2
+      - uses: codecov/codecov-action@v3
