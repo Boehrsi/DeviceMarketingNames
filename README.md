@@ -1,6 +1,6 @@
 [![Jitpack Version](https://jitpack.io/v/Boehrsi/DeviceMarketingNames.svg)](https://jitpack.io/#Boehrsi/DeviceMarketingNames)
 [![codecov](https://codecov.io/gh/Boehrsi/DeviceMarketingNames/branch/main/graph/badge.svg?token=FDL6MM474N)](https://codecov.io/gh/Boehrsi/DeviceMarketingNames)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/boehrsi/devicemarketingnames/Main)](https://github.com/Boehrsi/DeviceMarketingNames/actions)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Boehrsi/DeviceMarketingNames/main.yml)](https://github.com/Boehrsi/DeviceMarketingNames/actions)
 [![GitHub](https://img.shields.io/github/license/boehrsi/devicemarketingnames)](https://github.com/Boehrsi/devicemarketingnames/blob/main/LICENSE)
 
 # Device Marketing Names
