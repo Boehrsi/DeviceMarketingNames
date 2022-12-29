@@ -17,27 +17,39 @@ A simple device name lookup package. Map e.g. 'SM-G980F' to 'Galaxy S20'. No int
 
 ### Getting Started
 
-Add this to your root `build.gradle` file:
-
-```groovy
-allprojects {
-  repositories {
-    ...
-    maven { url 'https://jitpack.io' }
-  }
-}
-```
-
 Add this to your app `build.gradle` file:
 
 ```groovy
 dependencies {
-  ...
-  implementation 'com.github.Boehrsi:DeviceMarketingNames:0.3.2'
+    ...
+    implementation 'de.boehrsi:devicemarketingnames:0.4.0'
 }
 ```
 
-More information on [jitpack.io](https://jitpack.io/#Boehrsi/DeviceMarketingNames/).
+#### Migration 0.3.x to 0.4.0
+
+**Versions prior to 0.4.0** where available via [Jitpack](https://jitpack.io/#Boehrsi/DeviceMarketingNames/) with the package name `com.github.Boehrsi:DeviceMarketingNames`.  
+**Starting with version 0.4.0** new versions are deployed via [Maven Central](https://central.sonatype.dev/namespace/de.boehrsi) with the new package name `de.boehrsi:devicemarketingnames`.
+
+To migrate please adjust your current `build.gradle` entry from
+
+```groovy
+dependencies {
+  ...
+  implementation 'com.github.Boehrsi:DeviceMarketingNames:0.3.x'
+}
+```
+
+to the new package
+
+```groovy
+dependencies {
+  ... 
+  implementation 'de.boehrsi:devicemarketingnames:0.4.0'
+}
+```
+
+The additional repository definition in your root `build.gradle` file can be removed.
 
 ### Examples
 

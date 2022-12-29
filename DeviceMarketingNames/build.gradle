@@ -5,8 +5,13 @@ plugins {
     id 'com.dicedmelon.gradle.jacoco-android'
 }
 
-group = 'com.github.Boehrsi'
-version = '0.3.2'
+ext {
+    PUBLISH_GROUP_ID = 'de.boehrsi'
+    PUBLISH_VERSION = '0.4.0'
+    PUBLISH_ARTIFACT_ID = 'devicemarketingnames'
+}
+
+apply from: "${rootProject.projectDir}/scripts/publish-module.gradle"
 
 android {
     namespace = 'de.boehrsi.devicemarketingnames'
@@ -34,12 +39,6 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-
-    publishing {
-        singleVariant('release') {
-            withSourcesJar()
-        }
-    }
 }
 
 dependencies {
@@ -49,46 +48,4 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
-}
-
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                groupId = group
-                artifactId = 'devicemarketingnames'
-                version = version
-
-                afterEvaluate {
-                    from components.release
-                }
-
-                pom {
-                    name = 'Device Marketing Names'
-                    description = 'Marketing device name lookup library for Android.'
-                    url = 'https://github.com/Boehrsi/DeviceMarketingNames'
-
-                    licenses {
-                        license {
-                            name = 'Apache License 2.0'
-                            url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-                        }
-                    }
-
-                    developers {
-                        developer {
-                            id = 'Boehrsi'
-                            name = 'Boehrsi'
-                            email = 'boehrsii@gmail.com'
-                        }
-                    }
-                    scm {
-                        url = 'https://github.com/Boehrsi/DeviceMarketingNames'
-                        connection = 'scm:git:git://github.com/Boehrsi/DeviceMarketingNames.git'
-                        developerConnection = 'scm:git:ssh://git@github.com/Boehrsi/DeviceMarketingNames.git'
-                    }
-                }
-            }
-        }
-    }
 }
