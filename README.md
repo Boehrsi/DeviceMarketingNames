@@ -1,4 +1,4 @@
-[![Maven Central Version](https://img.shields.io/maven-central/v/de.boehrsi/devicemarketingnames)](https://central.sonatype.dev/namespace/de.boehrsi)
+[![Maven Central Version](https://img.shields.io/maven-central/v/de.boehrsi/devicemarketingnames)](https://central.sonatype.com/namespace/de.boehrsi)
 [![codecov](https://codecov.io/gh/Boehrsi/DeviceMarketingNames/branch/main/graph/badge.svg?token=FDL6MM474N)](https://codecov.io/gh/Boehrsi/DeviceMarketingNames)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Boehrsi/DeviceMarketingNames/main.yml)](https://github.com/Boehrsi/DeviceMarketingNames/actions)
 [![GitHub](https://img.shields.io/github/license/boehrsi/devicemarketingnames)](https://github.com/Boehrsi/devicemarketingnames/blob/main/LICENSE)
