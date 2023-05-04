@@ -7,7 +7,7 @@ plugins {
 
 ext {
     PUBLISH_GROUP_ID = 'de.boehrsi'
-    PUBLISH_VERSION = '0.4.2'
+    PUBLISH_VERSION = '0.4.3'
     PUBLISH_ARTIFACT_ID = 'devicemarketingnames'
 }
 
@@ -32,17 +32,26 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+            withJavadocJar()
+        }
     }
 }
 
 dependencies {
-    implementation 'androidx.core:core-ktx:1.9.0'
+    implementation 'androidx.core:core-ktx:1.10.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'
     testImplementation 'junit:junit:4.13.2'
