@@ -1,16 +1,3 @@
-apply plugin: 'maven-publish'
-apply plugin: 'signing'
-
-task androidSourcesJar(type: Jar) {
-    archiveClassifier.set('sources')
-    from android.sourceSets.main.java.srcDirs
-    from android.sourceSets.main.kotlin.srcDirs
-}
-
-artifacts {
-    archives androidSourcesJar
-}
-
 group = PUBLISH_GROUP_ID
 version = PUBLISH_VERSION
 
@@ -23,8 +10,6 @@ afterEvaluate {
                 version PUBLISH_VERSION
 
                 from components.release
-
-                artifact androidSourcesJar
 
                 pom {
                     name = PUBLISH_ARTIFACT_ID
