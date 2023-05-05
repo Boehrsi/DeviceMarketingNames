@@ -21,13 +21,6 @@ ext.excludes = [
         '**/*Test*.*',
 ]
 
-task jacocoTestReport(type: JacocoReport, group: "testing", dependsOn: "testDebugUnitTest") {
-    reports {
-        html.required = true
-        xml.required = true
-    }
-}
-
 def createVariantCoverage(variant) {
     def variantName = variant.name
     def testTaskName = "test${variantName.capitalize()}UnitTest"
