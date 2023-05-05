@@ -1,0 +1,57 @@
+project.afterEvaluate {
+    android.libraryVariants.all { variant ->
+        createVariantCoverage(variant)
+    }
+}
+
+ext.excludes = [
+        'android/**/*.*',
+        '**/databinding/*Binding.*',
+        '**/R.class',
+        '**/R$*.class',
+        '**/BuildConfig.*',
+        '**/Manifest*.*',
+        '**/Lambda$*.class',
+        '**/Lambda.class',
+        '**/*BR*.*',
+        '**/*Companion*.*',
+        '**/*Lambda.class',
+        '**/*Lambda*.class',
+        '**/*$Lambda$*.*',
+        '**/*Test*.*',
+]
+
+task jacocoTestReport(type: JacocoReport, group: "testing", dependsOn: "testDebugUnitTest") {
+    reports {
+        html.required = true
+        xml.required = true
+    }
+}
+
+def createVariantCoverage(variant) {
+    def variantName = variant.name
+    def testTaskName = "test${variantName.capitalize()}UnitTest"
+
+    tasks.create(name: "${testTaskName}Coverage", type: JacocoReport, dependsOn: "$testTaskName") {
+        group = "testing"
+        description = "Generate Jacoco coverage report."
+
+        reports {
+            html.required = true
+            xml.required = true
+        }
+
+        def javaClasses = fileTree(dir: variant.javaCompileProvider.get().destinationDir, excludes: project.excludes)
+        def kotlinClasses = fileTree(dir: "${buildDir}/tmp/kotlin-classes/${variantName}", excludes: project.excludes)
+        getClassDirectories().setFrom(files([javaClasses, kotlinClasses]))
+
+        getSourceDirectories().setFrom(files([
+                "$project.projectDir/src/main/java",
+                "$project.projectDir/src/${variantName}/java",
+                "$project.projectDir/src/main/kotlin",
+                "$project.projectDir/src/${variantName}/kotlin"
+        ]))
+
+        getExecutionData().setFrom(files("${project.buildDir}/outputs/unit_test_code_coverage/${variantName}UnitTest/${testTaskName}.exec"))
+    }
+}

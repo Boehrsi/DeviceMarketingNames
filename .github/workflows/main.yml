@@ -14,5 +14,5 @@ jobs:
           distribution: 'temurin'
           java-version: 11
       - name: Build and run test
-        run: bash ./gradlew build jacocoTestReport
+        run: bash ./gradlew build testDebugUnitTestCoverage
       - uses: codecov/codecov-action@v3
