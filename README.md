@@ -1,4 +1,4 @@
-[![Maven Central Version](https://img.shields.io/maven-central/v/de.boehrsi/devicemarketingnames)](https://central.sonatype.com/namespace/de.boehrsi)
+[![Maven Central Version](https://img.shields.io/maven-central/v/de.boehrsi/devicemarketingnames)](https://central.sonatype.com/artifact/de.boehrsi/devicemarketingnames/)
 [![codecov](https://codecov.io/gh/Boehrsi/DeviceMarketingNames/branch/main/graph/badge.svg?token=FDL6MM474N)](https://codecov.io/gh/Boehrsi/DeviceMarketingNames)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Boehrsi/DeviceMarketingNames/main.yml)](https://github.com/Boehrsi/DeviceMarketingNames/actions)
 [![GitHub](https://img.shields.io/github/license/boehrsi/devicemarketingnames)](https://github.com/Boehrsi/DeviceMarketingNames/blob/main/LICENSE.txt)
@@ -29,7 +29,7 @@ dependencies {
 #### Migration 0.3.x to 0.4.0
 
 **Versions prior to 0.4.0** where available via [Jitpack](https://jitpack.io/#Boehrsi/DeviceMarketingNames/) with the package name `com.github.Boehrsi:DeviceMarketingNames`.  
-**Starting with version 0.4.0** new versions are deployed via [Maven Central](https://central.sonatype.com/namespace/de.boehrsi) with the new package name `de.boehrsi:devicemarketingnames`.
+**Starting with version 0.4.0** new versions are deployed via [Maven Central](https://central.sonatype.com/artifact/de.boehrsi/devicemarketingnames/) with the new package name `de.boehrsi:devicemarketingnames`.
 
 To migrate please adjust your current `build.gradle` entry from
 
