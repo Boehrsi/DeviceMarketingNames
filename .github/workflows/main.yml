@@ -17,4 +17,5 @@ jobs:
         run: bash ./gradlew build testDebugUnitTestCoverage
       - uses: codecov/codecov-action@v4
         with:
+          token: ${{ secrets.CODECOV_TOKEN }}
           files: ./DeviceMarketingNames/build/reports/jacoco/testDebugUnitTestCoverage/testDebugUnitTestCoverage.xml
