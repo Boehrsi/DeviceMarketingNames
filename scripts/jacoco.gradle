@@ -25,7 +25,8 @@ def createVariantCoverage(variant) {
     def variantName = variant.name
     def testTaskName = "test${variantName.capitalize()}UnitTest"
 
-    tasks.create(name: "${testTaskName}Coverage", type: JacocoReport, dependsOn: "$testTaskName") {
+    tasks.register("${testTaskName}Coverage", JacocoReport) {
+        dependsOn("$testTaskName")
         group = "testing"
         description = "Generate Jacoco coverage report."
 
@@ -35,7 +36,7 @@ def createVariantCoverage(variant) {
         }
 
         def javaClasses = fileTree(dir: variant.javaCompileProvider.get().destinationDir, excludes: project.excludes)
-        def kotlinClasses = fileTree(dir: "${buildDir}/tmp/kotlin-classes/${variantName}", excludes: project.excludes)
+        def kotlinClasses = fileTree(dir: "${layout.buildDirectory}/tmp/kotlin-classes/${variantName}", excludes: project.excludes)
         getClassDirectories().setFrom(files([javaClasses, kotlinClasses]))
 
         getSourceDirectories().setFrom(files([
@@ -45,6 +46,6 @@ def createVariantCoverage(variant) {
                 "$project.projectDir/src/${variantName}/kotlin"
         ]))
 
-        getExecutionData().setFrom(files("${project.buildDir}/outputs/unit_test_code_coverage/${variantName}UnitTest/${testTaskName}.exec"))
+        getExecutionData().setFrom(files("${project.layout.buildDirectory}/outputs/unit_test_code_coverage/${variantName}UnitTest/${testTaskName}.exec"))
     }
 }
