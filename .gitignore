@@ -88,3 +88,8 @@ lint/tmp/
 
 # Secrets
 /secrets.properties
+/.idea/appInsightsSettings.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/other.xml
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/codeStyles/Project.xml
