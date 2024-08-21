@@ -28,7 +28,7 @@ dependencies {
 
 #### Migration 0.3.x to 0.4.0
 
-**Versions prior to 0.4.0** where available via [Jitpack](https://jitpack.io/#Boehrsi/DeviceMarketingNames/) with the package name `com.github.Boehrsi:DeviceMarketingNames`.  
+**Versions prior to 0.4.0** are available via [Jitpack](https://jitpack.io/#Boehrsi/DeviceMarketingNames/) with the package name `com.github.Boehrsi:DeviceMarketingNames`.  
 **Starting with version 0.4.0** new versions are deployed via [Maven Central](https://central.sonatype.com/artifact/de.boehrsi/devicemarketingnames/) with the new package name `de.boehrsi:devicemarketingnames`.
 
 To migrate please adjust your current `build.gradle` entry from
