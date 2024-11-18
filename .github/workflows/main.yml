@@ -15,7 +15,7 @@ jobs:
           java-version: 17
       - name: Build and run test
         run: bash ./gradlew build testDebugUnitTestCoverage
-      - uses: codecov/codecov-action@v4
+      - uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           files: ./DeviceMarketingNames/build/reports/jacoco/testDebugUnitTestCoverage/testDebugUnitTestCoverage.xml
