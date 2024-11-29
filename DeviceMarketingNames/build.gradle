@@ -8,7 +8,7 @@ plugins {
 
 ext {
     PUBLISH_GROUP_ID = 'de.boehrsi'
-    PUBLISH_VERSION = '0.6.3'
+    PUBLISH_VERSION = '0.6.4'
     PUBLISH_ARTIFACT_ID = 'devicemarketingnames'
 }
 
@@ -18,7 +18,7 @@ apply from: "${rootProject.projectDir}/scripts/jacoco.gradle"
 android {
     namespace = 'de.boehrsi.devicemarketingnames'
 
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
         minSdk 21
@@ -57,7 +57,7 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.core:core-ktx:1.13.1'
+    implementation 'androidx.core:core-ktx:1.15.0'
     implementation 'androidx.appcompat:appcompat:1.7.0'
     implementation 'com.google.android.material:material:1.12.0'
     testImplementation 'junit:junit:4.13.2'
