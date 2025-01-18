@@ -2,6 +2,7 @@
 [![codecov](https://codecov.io/gh/Boehrsi/DeviceMarketingNames/branch/main/graph/badge.svg?token=FDL6MM474N)](https://codecov.io/gh/Boehrsi/DeviceMarketingNames)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Boehrsi/DeviceMarketingNames/main.yml)](https://github.com/Boehrsi/DeviceMarketingNames/actions)
 [![GitHub](https://img.shields.io/github/license/boehrsi/devicemarketingnames)](https://github.com/Boehrsi/DeviceMarketingNames/blob/main/LICENSE.txt)
+[![Main](https://github.com/Boehrsi/DeviceMarketingNames/actions/workflows/main.yml/badge.svg)](https://github.com/Boehrsi/DeviceMarketingNames/actions/workflows/main.yml)
 
 # Device Marketing Names
 
@@ -22,7 +23,7 @@ Add this to your app `build.gradle` file:
 ```groovy
 dependencies {
     ...
-    implementation 'de.boehrsi:devicemarketingnames:0.6.5'
+    implementation 'de.boehrsi:devicemarketingnames:0.6.6'
 }
 ```
 
