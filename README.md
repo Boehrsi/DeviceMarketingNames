@@ -23,7 +23,7 @@ Add this to your app `build.gradle` file:
 ```groovy
 dependencies {
     ...
-    implementation 'de.boehrsi:devicemarketingnames:0.6.8'
+    implementation 'de.boehrsi:devicemarketingnames:0.7.0'
 }
 ```
 
