@@ -10,7 +10,7 @@ import com.vanniktech.maven.publish.SonatypeHost
 
 ext {
     PUBLISH_GROUP_ID = 'de.boehrsi'
-    PUBLISH_VERSION = '0.7.1'
+    PUBLISH_VERSION = '1.0.0'
     PUBLISH_ARTIFACT_ID = 'devicemarketingnames'
 }
 
