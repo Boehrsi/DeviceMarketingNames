@@ -3,7 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id "com.vanniktech.maven.publish" version "0.36.0"
     id 'jacoco'
-    id "de.undercouch.download" version "5.6.0"
+    id "de.undercouch.download" version "5.7.0"
 }
 
 ext {
