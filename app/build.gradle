@@ -26,7 +26,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_21
         targetCompatibility JavaVersion.VERSION_21
     }
-    namespace 'de.boehrsi.devicemarketingnames.example'
+    namespace = 'de.boehrsi.devicemarketingnames.example'
 }
 
 kotlin {
