@@ -17,11 +17,11 @@ apply from: "${rootProject.projectDir}/scripts/jacoco.gradle"
 android {
     namespace = 'de.boehrsi.devicemarketingnames'
 
-    compileSdkVersion 36
+    compileSdkVersion 37
 
     defaultConfig {
         minSdk 23
-        targetSdk 36
+        targetSdk 37
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
