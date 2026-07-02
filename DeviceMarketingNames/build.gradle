@@ -21,7 +21,6 @@ android {
 
     defaultConfig {
         minSdk 23
-        targetSdk 37
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -42,6 +41,12 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_21
         targetCompatibility JavaVersion.VERSION_21
+    }
+    lint {
+        targetSdk 37
+    }
+    testOptions {
+        targetSdk 37
     }
 }
 
