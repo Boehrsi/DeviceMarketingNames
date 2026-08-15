@@ -53,6 +53,9 @@ def createVariantCoverage(variant) {
         ) + fileTree(
                 dir: "${buildDir}/intermediates/kotlin_classes/${variantName}/classes",
                 excludes: project.excludes
+        ) + fileTree(
+                dir: "${buildDir}/intermediates/compile_library_classes_jar/${variantName}",
+                excludes: project.excludes
         )
 
         getClassDirectories().setFrom(classTree)
@@ -65,11 +68,11 @@ def createVariantCoverage(variant) {
         ]))
 
         getExecutionData().setFrom(fileTree(
-                dir: "${buildDir}/outputs/unit_test_code_coverage/${variantName}UnitTest",
-                includes: ["*.exec"]
+                dir: "${buildDir}/outputs/unit_test_code_coverage",
+                includes: ["**/*.exec"]
         ) + fileTree(
                 dir: "${buildDir}/jacoco",
-                includes: ["${testTaskName}.exec"]
+                includes: ["**/*.exec"]
         ))
     }
 }
