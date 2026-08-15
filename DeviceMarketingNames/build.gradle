@@ -1,6 +1,5 @@
 plugins {
     id 'com.android.library'
-    id 'org.jetbrains.kotlin.android'
     id "com.vanniktech.maven.publish" version "0.37.0"
     id 'jacoco'
     id "de.undercouch.download" version "5.7.0"
@@ -8,7 +7,7 @@ plugins {
 
 ext {
     PUBLISH_GROUP_ID = 'de.boehrsi'
-    PUBLISH_VERSION = '1.0.8'
+    PUBLISH_VERSION = '1.0.9'
     PUBLISH_ARTIFACT_ID = 'devicemarketingnames'
 }
 
@@ -56,7 +55,7 @@ kotlin {
 
 dependencies {
     implementation 'androidx.core:core-ktx:1.19.0'
-    implementation 'androidx.appcompat:appcompat:1.7.1'
+    implementation 'androidx.appcompat:appcompat:1.8.0'
     implementation 'com.google.android.material:material:1.14.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.3.0'

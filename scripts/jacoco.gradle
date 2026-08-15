@@ -1,5 +1,7 @@
-project.afterEvaluate {
-    android.libraryVariants.all { variant ->
+plugins.apply('jacoco')
+
+androidComponents {
+    onVariants(selector().all()) { variant ->
         createVariantCoverage(variant)
     }
 }
@@ -22,23 +24,30 @@ ext.excludes = [
 ]
 
 def createVariantCoverage(variant) {
-    def projectFolder = project.layout.buildDirectory.asFile.get()
+    def buildDir = project.layout.buildDirectory.get().asFile
     def variantName = variant.name
-    def testTaskName = "test${variantName.capitalize()}UnitTest"
+    def capitalizedVariantName = variantName.capitalize()
+    def testTaskName = "test${capitalizedVariantName}UnitTest"
 
     tasks.register("${testTaskName}Coverage", JacocoReport) {
         dependsOn(testTaskName)
         group = "testing"
-        description = "Generate Jacoco coverage report."
+        description = "Generate Jacoco coverage report for ${capitalizedVariantName}."
 
         reports {
             html.required = true
             xml.required = true
         }
 
-        def javaClasses = fileTree(dir: variant.javaCompileProvider.get().destinationDirectory.get().asFile, excludes: project.excludes)
-        def kotlinClasses = fileTree(dir: "${projectFolder}/tmp/kotlin-classes/${variantName}", excludes: project.excludes)
-        getClassDirectories().setFrom(files([javaClasses, kotlinClasses]))
+        def classTree = fileTree(
+                dir: "${buildDir}/intermediates/javac/${variantName}/classes",
+                excludes: project.excludes
+        ) + fileTree(
+                dir: "${buildDir}/tmp/kotlin-classes/${variantName}",
+                excludes: project.excludes
+        )
+
+        getClassDirectories().setFrom(classTree)
 
         getSourceDirectories().setFrom(files([
                 "$project.projectDir/src/main/java",
@@ -47,6 +56,9 @@ def createVariantCoverage(variant) {
                 "$project.projectDir/src/${variantName}/kotlin"
         ]))
 
-        getExecutionData().setFrom(files("${projectFolder}/outputs/unit_test_code_coverage/${variantName}UnitTest/${testTaskName}.exec"))
+        getExecutionData().setFrom(fileTree(
+                dir: "${buildDir}/outputs/unit_test_code_coverage/${variantName}UnitTest",
+                includes: ["*.exec"]
+        ))
     }
 }
