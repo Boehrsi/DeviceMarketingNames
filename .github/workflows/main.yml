@@ -14,7 +14,7 @@ jobs:
           distribution: 'temurin'
           java-version: 17
       - name: Build and run test
-        run: bash ./gradlew build testDebugUnitTestCoverage
+        run: bash ./gradlew build :DeviceMarketingNames:testDebugUnitTestCoverage
       - uses: codecov/codecov-action@v7
         with:
           token: ${{ secrets.CODECOV_TOKEN }}

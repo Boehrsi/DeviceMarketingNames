@@ -1,5 +1,9 @@
 plugins.apply('jacoco')
 
+jacoco {
+    toolVersion = "0.8.12"
+}
+
 androidComponents {
     onVariants(selector().all()) { variant ->
         createVariantCoverage(variant)
@@ -37,6 +41,7 @@ def createVariantCoverage(variant) {
         reports {
             html.required = true
             xml.required = true
+            xml.outputLocation = file("${buildDir}/reports/jacoco/${name}/${name}.xml")
         }
 
         def classTree = fileTree(
@@ -44,6 +49,9 @@ def createVariantCoverage(variant) {
                 excludes: project.excludes
         ) + fileTree(
                 dir: "${buildDir}/tmp/kotlin-classes/${variantName}",
+                excludes: project.excludes
+        ) + fileTree(
+                dir: "${buildDir}/intermediates/kotlin_classes/${variantName}/classes",
                 excludes: project.excludes
         )
 
@@ -59,6 +67,9 @@ def createVariantCoverage(variant) {
         getExecutionData().setFrom(fileTree(
                 dir: "${buildDir}/outputs/unit_test_code_coverage/${variantName}UnitTest",
                 includes: ["*.exec"]
+        ) + fileTree(
+                dir: "${buildDir}/jacoco",
+                includes: ["${testTaskName}.exec"]
         ))
     }
 }
