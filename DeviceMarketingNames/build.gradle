@@ -7,7 +7,7 @@ plugins {
 
 ext {
     PUBLISH_GROUP_ID = 'de.boehrsi'
-    PUBLISH_VERSION = '1.0.9'
+    PUBLISH_VERSION = '1.0.10'
     PUBLISH_ARTIFACT_ID = 'devicemarketingnames'
 }
 
