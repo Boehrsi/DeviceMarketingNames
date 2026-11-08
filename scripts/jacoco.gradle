@@ -55,6 +55,12 @@ def createVariantCoverage(variant) {
                 dir: "${buildDir}/intermediates/javac/${variantName}/classes",
                 excludes: project.excludes
         ) + fileTree(
+                dir: "${buildDir}/intermediates/javac/${variantName}/compile${capitalizedVariantName}JavaWithJavac/classes",
+                excludes: project.excludes
+        ) + fileTree(
+                dir: "${buildDir}/intermediates/built_in_kotlinc/${variantName}/compile${capitalizedVariantName}Kotlin/classes",
+                excludes: project.excludes
+        ) + fileTree(
                 dir: "${buildDir}/tmp/kotlin-classes/${variantName}",
                 excludes: project.excludes
         )
