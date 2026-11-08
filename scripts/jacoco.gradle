@@ -4,6 +4,12 @@ jacoco {
     toolVersion = "0.8.12"
 }
 
+tasks.withType(Test).configureEach {
+    jacoco {
+        excludes = ['de/boehrsi/devicemarketingnames/data/**']
+    }
+}
+
 androidComponents {
     onVariants(selector().all()) { variant ->
         createVariantCoverage(variant)
@@ -25,6 +31,7 @@ ext.excludes = [
         '**/*Lambda*.class',
         '**/*$Lambda$*.*',
         '**/*Test*.*',
+        '**/data/**',
 ]
 
 def createVariantCoverage(variant) {
@@ -50,12 +57,6 @@ def createVariantCoverage(variant) {
         ) + fileTree(
                 dir: "${buildDir}/tmp/kotlin-classes/${variantName}",
                 excludes: project.excludes
-        ) + fileTree(
-                dir: "${buildDir}/intermediates/kotlin_classes/${variantName}/classes",
-                excludes: project.excludes
-        ) + fileTree(
-                dir: "${buildDir}/intermediates/compile_library_classes_jar/${variantName}",
-                excludes: project.excludes
         )
 
         getClassDirectories().setFrom(classTree)
@@ -69,10 +70,10 @@ def createVariantCoverage(variant) {
 
         getExecutionData().setFrom(fileTree(
                 dir: "${buildDir}/outputs/unit_test_code_coverage",
-                includes: ["**/*.exec"]
+                includes: ["**/*.exec", "**/*.ec"]
         ) + fileTree(
                 dir: "${buildDir}/jacoco",
-                includes: ["**/*.exec"]
+                includes: ["**/*.exec", "**/*.ec"]
         ))
     }
 }
